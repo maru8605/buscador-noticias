@@ -1,8 +1,16 @@
-
+import Header from "./component/Header";
+import Form from './component/Form'
 
 function App() {
   return (
-    <h1>Hola</h1>
+    <>
+      <Header titulo='Portal de noticias'/>
+
+      <div className='container white'>
+        <Form/>
+      </div>
+    </>
+
   );
 }
 
