@@ -1,0 +1,6 @@
+.contenedor-noticias {
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  align-content: space-between;
+}
